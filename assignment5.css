@@ -1,0 +1,122 @@
+body{
+	background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+}
+h1{
+	font-family: Brush Script MT, cursive;
+	font-size: 80px;
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 700;
+	line-height: 26.4px; 
+	text-align: center;
+	animation-duration: 2s;
+	animation-name: nameslidein;
+}
+@keyframes nameslidein{
+	from{
+		margin-left: 100%;
+		width: 300%;
+	}
+	to{
+		margin-left: 0%;
+		width: 100%;
+	}
+}
+h3{
+	font-family: optima;
+	text-decoration: underline;
+}
+h4{
+	text-align: center;
+}
+h5{
+	text-align: center;
+}
+legend{
+	font-size: 30px;
+	color: blue;
+}
+.Education{
+	padding-left: 2em;
+	animation-duration: 2s;
+	animation-name: eslidein;
+}
+@keyframes eslidein{
+	from{
+		margin-left: 100%;
+		width: 300%;
+	}
+	to{
+		margin-right: 0%;
+		width: 100%;
+	}
+}
+.Skills{
+	padding-left: 2em;
+	animation-duration: 2s;
+	animation-name: sslidein;
+}
+@keyframes sslidein{
+	from{
+		margin-right: 0%;
+		width: 300%;
+	}
+	to{
+		margin-left: 100%;
+		width: 100%;
+	}
+}
+.Experience{
+	padding-left: 2em;
+	animation-name: exslidein;
+	animation-duration: 2s;
+}
+@keyframes exslidein{
+	from{
+		margin-top: 100%;
+		width: 300%;
+	}
+	to{
+		margin-bottom: 0%;
+		width: 100%;
+	}
+}
+h2{
+	font-size: 40px;
+	font-weight: bold;
+	animation: blink 1.2s infinite;
+	animation-name: blink;
+}
+@keyframes blink{
+	0%{color: #996600;}
+	49%{color: #996600;}
+	60%{color: transparent;}
+	99%{color: #996600;}
+	100%{color: #996600;}
+}
+nav{
+	background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; 
+ 	background-blend-mode: multiply,multiply;
+	padding: 7px;
+	text-align: center;
+}
+a{
+	padding-left: 2em;
+	color: #80bfff;
+	font-size: 20px;
+}
+a:hover{
+	color: white;
+}
+p{
+	font-family: verdana;
+}
+.column{
+	float: left;
+}
+.left{
+	width: 75%;
+}
+.right{
+	width: 25%;
+}
